@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar-nav a.happy-holidays-active {
+  color: darkred;
+}
+.navbar-nav a.happy-holidays-active:hover {
+  color: darkgreen;
+}
+.navbar-nav a.happy-holidays-inactive:hover {
+  color: darkgreen;
+}

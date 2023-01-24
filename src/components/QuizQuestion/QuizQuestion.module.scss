@@ -1,0 +1,71 @@
+.quizQuestionWithEverything {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.quizQuestion {
+  font-size: large;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+}
+.quizQuestionLeftRight {
+  width: 370px;
+}
+.quizQuestionMiddle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 380px;
+}
+.questionIntroduction {
+  font-size: large;
+  margin-bottom: 10px;
+}
+.question {
+  font-size: large;
+  margin-bottom: 15px;
+}
+.answers {
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+}
+.answer {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+.iconRadioButton {
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+.rightWrongDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rightWrong {
+  max-height: 130px;
+}
+.successPictures {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.successImage {
+  margin: 10px;
+  max-width:600px;
+  max-height:600px;
+  width:auto;
+  height:auto;
+}
+.successIFrame {
+  margin: 10px;
+}
+.wrong {
+  text-decoration: line-through;
+}

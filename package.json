@@ -3,19 +3,34 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.3",
+    "multireducer": "^3.1.2",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router": "^6.6.1",
+    "react-router-bootstrap": "^0.26.2",
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.2",
+    "sass": "^1.57.1",
+    "three": "^0.148.0",
+    "underscore": "^1.13.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +49,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.20.13",
+    "@babel/plugin-syntax-decorators": "^7.19.0",
+    "babel-plugin-root-import": "^6.6.0",
+    "customize-cra": "^1.0.0",
+    "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
+    "react-app-rewired": "^2.2.1",
+    "redux-devtools-extension": "^2.13.9"
   }
 }
