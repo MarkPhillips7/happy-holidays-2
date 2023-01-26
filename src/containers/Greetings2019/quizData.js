@@ -228,13 +228,13 @@ export const quizData = {
   ],
   introductionPicture: require("../../images/whole-family-with-sloth.jpg"),
   picturesWhenGuessedIncorrectly: [
-    "http://clipground.com/images/try-again-clipart-2.jpg",
+    require("../../images/try-again-clipart-2.jpg"),
     require(`../../images/willow-thing-wrapped-around-head.jpg`),
-    "http://vignette3.wikia.nocookie.net/lotrminecraftmod/images/e/e1/Never_Give_Up_Never_Surrender.png/revision/latest?cb=20150427205746",
+    require(`../../images/Never_Give_Up_Never_Surrender.webp`),
     require(`../../images/lily-angry-witch.jpg`),
-    "https://cdn-images-1.medium.com/max/1500/1*pefoGGPju2Yc3XLxYvNLnQ.png",
-    "https://get.whotrades.com/u3/photo843E/20389222600-0/big.jpeg",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkenSYD_mBx5N1C0qGgbJNc913PbtcViWqPAx66Qjuhx4KRVe0",
+    require(`../../images/smack_my_head_statue.png`),
+    require(`../../images/smack_my_head_homer.jpg`),
+    require(`../../images/epic_fail.jpg`),
   ],
   resultsByHowManyCorrect: {
     0: {
