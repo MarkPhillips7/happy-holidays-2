@@ -1,13 +1,13 @@
-import src from "../../images/Phillips Christmas letter 2008.pdf";
 import React, { Component } from "react";
+import GreetingsEmbeddedDoc from "../GreetingsEmbeddedDoc/GreetingsEmbeddedDoc";
 
 export default class Greetings2008 extends Component {
   render() {
     return (
-      <iframe
-        src={src}
-        width="100%"
-        height={1800}
+      <GreetingsEmbeddedDoc
+        width={820}
+        height={1300}
+        iFrameSource="https://drive.google.com/file/d/1h97cLTU9_SYwZd9Dn-YYn_QeB4l1KNzI/preview"
         title="Philips Christmas letter 2008"
       />
     );

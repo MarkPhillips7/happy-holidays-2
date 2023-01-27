@@ -4,19 +4,6 @@ import "./App.css";
 import "./App.scss";
 import styles from "./App.module.scss";
 import { useLocation } from "react-router-dom";
-import { Routes, Route } from "react-router-dom";
-import Greetings2008 from "./containers/Greetings2008/Greetings2008";
-import Greetings2009 from "./containers/Greetings2009/Greetings2009";
-import Greetings2011 from "./containers/Greetings2011/Greetings2011";
-import Greetings2012 from "./containers/Greetings2012/Greetings2012";
-import Greetings2014 from "./containers/Greetings2014/Greetings2014";
-import Greetings2015 from "./containers/Greetings2015/Greetings2015";
-import Greetings2017 from "./containers/Greetings2017/Greetings2017";
-import Greetings2019 from "./containers/Greetings2019/Greetings2019";
-import { Greetings2020 } from "./containers/Greetings2020/Greetings2020";
-import { Greetings2021 } from "./containers/Greetings2021/Greetings2021";
-import { Greetings2022 } from "./containers/Greetings2022/Greetings2022";
-import NotFound from "./containers/NotFound/NotFound";
 
 function App(props) {
   const location = useLocation();
@@ -74,22 +61,7 @@ function App(props) {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      {/* <div className={styles.appContent}>{props.children}</div> */}
-      <Routes>
-        <Route index element={<Greetings2022 />} />
-        <Route path="2022" element={<Greetings2022 />} />
-        <Route path="2021" element={<Greetings2021 />} />
-        <Route path="2020" element={<Greetings2020 />} />
-        <Route path="2019" element={<Greetings2019 />} />
-        <Route path="2017" element={<Greetings2017 />} />
-        <Route path="2015" element={<Greetings2015 />} />
-        <Route path="2014" element={<Greetings2014 />} />
-        <Route path="2012" element={<Greetings2012 />} />
-        <Route path="2011" element={<Greetings2011 />} />
-        <Route path="2009" element={<Greetings2009 />} />
-        <Route path="2008" element={<Greetings2008 />} />
-        <Route path="*" element={<NotFound />} status={404} />
-      </Routes>
+      <div className={styles.appContent}>{props.children}</div>
     </div>
   );
 }
