@@ -1,6 +1,8 @@
 # Introduction
 
-This repo represents happy holiday wishes from the Phillips family over the years
+This repo represents happy holiday wishes from the Phillips family over the years. 
+
+Check out [the interactive quiz of 2017](https://happy-holidays.wafflessoftware.com/2017) or [the winter wonderland of 2015](https://happy-holidays.wafflessoftware.com/2015) to experience the parts of the app that required some software development. Or find the latest holiday greetings [here](https://happy-holidays.wafflessoftware.com/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

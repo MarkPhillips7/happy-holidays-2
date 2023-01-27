@@ -1,4 +1,3 @@
-// export LoginSuccess from "./LoginSuccess/LoginSuccess";
 export { default as Greetings2008 } from "./Greetings2008/Greetings2008";
 export { default as Greetings2009 } from "./Greetings2009/Greetings2009";
 export { default as Greetings2011 } from "./Greetings2011/Greetings2011";

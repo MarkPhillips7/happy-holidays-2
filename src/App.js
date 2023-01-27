@@ -9,9 +9,8 @@ function App(props) {
   const location = useLocation();
   const url = location?.pathname;
   const src = require("./images/red-christmas-ball-icon-44144.png");
-  const currentYear = "2022";
   const greetingsYears = [
-    currentYear,
+    "2022",
     "2021",
     "2020",
     "2019",
@@ -23,6 +22,7 @@ function App(props) {
     "2009",
     "2008",
   ];
+  const currentYear = greetingsYears[0];
   const getNavLink = (linkText) => {
     const isActive =
       (linkText === currentYear && url === "/") || url === "/" + linkText;

@@ -16,8 +16,8 @@ import { useSelector, useDispatch } from "react-redux";
 
 export const GreetingsQuiz = (props) => {
   const dispatch = useDispatch();
-  const { multireducerKey, quizData } = props;
-  const quiz = useSelector((state) => state[multireducerKey]);
+  const { quizData } = props;
+  const quiz = useSelector((state) => state.quiz);
   const {
     allQuestionsGuesses,
     currentQuestionIndex,

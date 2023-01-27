@@ -1,4 +1,4 @@
-import never_give_up_never_surrender from "../../images/Never_Give_Up_Never_Surrender.webp";
+import never_give_up_never_surrender from "../../images/never_give_up_never_surrender.jpg";
 import willow_thing_wrapped_around_head from "../../images/willow-thing-wrapped-around-head.jpg";
 import lily_willow_hats_and_shades_medium from "../../images/lily-willow-hats-and-shades-medium.jpg";
 import lily_willow_hugging_beach_medium from "../../images/lily-willow-hugging-beach-medium.jpg";

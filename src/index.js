@@ -139,8 +139,7 @@ const router = createBrowserRouter(
 
 const store = configureStore({
   reducer: {
-    quiz2017: quizReducer,
-    quiz2019: quizReducer,
+    quiz: quizReducer,
   },
 });
 const root = ReactDOM.createRoot(document.getElementById("root"));

@@ -25,7 +25,6 @@ export const resizeElementHeightToMaintainAspectRatio = (
 
 function VideoPlayer(props) {
   const { src, title } = props;
-  // const [dimensions,setDimensions]=useState({width:props.width,height:props.height})
   const elementRef = useRef();
   const aspectRatio = props.width / props.height;
   useEffect(

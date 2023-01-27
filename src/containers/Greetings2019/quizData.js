@@ -1,4 +1,4 @@
-import never_give_up_never_surrender from "../../images/Never_Give_Up_Never_Surrender.webp";
+import never_give_up_never_surrender from "../../images/never_give_up_never_surrender.jpg";
 import willow_thing_wrapped_around_head from "../../images/willow-thing-wrapped-around-head.jpg";
 import try_again_clip_art_2 from "../../images/try-again-clipart-2.jpg";
 import lily_angry_witch from "../../images/lily-angry-witch.jpg";

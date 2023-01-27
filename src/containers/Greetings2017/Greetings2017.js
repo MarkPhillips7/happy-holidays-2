@@ -4,6 +4,6 @@ import { quizData } from "./quizData";
 
 export default class Greetings2017 extends Component {
   render() {
-    return <GreetingsQuiz multireducerKey="quiz2017" quizData={quizData} />;
+    return <GreetingsQuiz quizData={quizData} />;
   }
 }
