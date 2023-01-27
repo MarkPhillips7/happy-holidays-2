@@ -1,7 +1,7 @@
-import src from "images/Phillips Christmas Letter 2011.pdf";
 import React, { Component } from "react";
 export default class Greetings2011 extends Component {
   render() {
+    const src = process.env.PUBLIC_URL + "/Phillips Christmas Letter 2011.pdf";
     return (
       <iframe
         src={src}
