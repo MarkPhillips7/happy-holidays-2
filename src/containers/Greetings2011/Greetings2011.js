@@ -7,7 +7,7 @@ export default class Greetings2011 extends Component {
       <GreetingsEmbeddedDoc
         width={820}
         height={1100}
-        iFrameSource="https://drive.google.com/file/d/0B3sKAi1tonvXM2JmYjQ3NzEtY2M3Mi00MDcxLWE5MDUtYzU1ZjdhNzE0MjUz/preview?resourceKey=0-ioFlJ2N1sdAZL0jOIuEJcw"
+        iFrameSource="https://drive.google.com/file/d/1g6Phb6q-vwdZ0zL4QLVtyKJQYLpPI9o5/preview"
       />
     );
   }
